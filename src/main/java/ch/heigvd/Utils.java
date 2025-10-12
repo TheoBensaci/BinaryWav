@@ -17,7 +17,7 @@ public class Utils {
                 (byte)(value >> 24),
                 (byte)(value >> 16),
                 (byte)(value >> 8),
-                (byte)value },ByteOrder.nativeOrder().equals(ByteOrder.BIG_ENDIAN));
+                (byte)value},true);
     }
 
     public static byte[] bytesEndianConvertor(byte[] data, boolean bigEndian){
@@ -32,7 +32,7 @@ public class Utils {
 
     public static byte[] reverseEndian(byte[] data){
         byte[] newData = new byte[data.length];
-        for (int i = 0; i<data.length-1; i++){
+        for (int i = 0; i<data.length; i++){
             newData[data.length-1-i]=data[i];
         }
 
