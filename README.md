@@ -10,7 +10,7 @@
 BinaryWav is cli project aiming to hidde binary file in to .wav and being able to recover them
 
 ## Installation
-1. Download the latest [release]().
+1. Download the latest [release](https://github.com/TheoBensaci/BinaryWav/releases).
 2. You'r good to go
 ### Or
 1. Clone the repo 
